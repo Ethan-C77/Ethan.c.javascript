@@ -1,0 +1,876 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nom-site{
+    font-size: 24px;
+    text-align: center;
+    color: rgb(242, 255, 240);
+    font-family: 'MedievalSharp';
+}
+
+
+.mail :hover{
+    color: yellow;
+}
+
+.num :hover{
+    color: yellow;
+}
+
+.bouton-acceuil :hover{
+    color: yellow;
+}
+
+.bouton-boutique :hover{
+    color: yellow;
+}
+
+.bouton-acceuil{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+}
+
+.bouton-boutique{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+}
+
+.bouton-formulaire{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+}
+
+.contacts{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(242, 255, 240);
+    font-family: 'MedievalSharp';
+}
+
+.mail{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+}
+
+.num{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+}
+
+.des_yugi_commune{
+    font-size: 8px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+.des_yugi_rare{
+    font-size: 8px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+.des_yugi_leg{
+    font-size: 8px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+
+
+
+.des_poke_commune{
+    font-size: 8px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+.des_poke_rare{
+    font-size: 8px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+.des_poke_leg{
+    font-size: 8px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+.des_magic_commune{
+    font-size: 8px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+.des_magic_rare{
+    font-size: 8px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+.des_magic_leg{
+    font-size: 8px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+.nom-yugi{
+    font-size: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+.nom-poke{
+    font-size: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+.nom-magic{
+    font-size: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+.prix-commune-yugi{
+    font-size: 8px;
+    text-align: center;
+    color: yellow;
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+.prix-commune-poke{
+    font-size: 8px;
+    text-align: center;
+    color: yellow;
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+.prix-commune-magic{
+    font-size: 8px;
+    text-align: center;
+    color: yellow;
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+.prix-rare-yugi{
+    font-size: 8px;
+    text-align: center;
+    color: yellow;
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+.prix-rare-poke{
+    font-size: 8px;
+    text-align: center;
+    color: yellow;
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+.prix-rare-magic{
+    font-size: 8px;
+    text-align: center;
+    color: yellow;
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+.prix-leg-yugi{
+    font-size: 8px;
+    text-align: center;
+    color: yellow;
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+.prix-leg-poke{
+    font-size: 8px;
+    text-align: center;
+    color: yellow;
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+.prix-leg-magic{
+    font-size: 8px;
+    text-align: center;
+    color: yellow;
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(131, 67, 38);
+}
+
+body{
+    background-color: rgb(28, 19, 9);
+    transition: background-color 0.5s ease, color 0.5s ease; 
+}
+
+.logo{
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(106, 73, 51);
+}
+
+.nom-site{
+    width: 35%;
+    height: 50px;
+}
+
+.logo{
+    width: 37%;
+    height: 200px;
+
+}
+
+.bouton-acceuil{
+    width: 25%;
+    height: 50px;
+}
+
+.bouton-boutique{
+    width: 25%;
+    height: 50px;
+}
+
+
+.cartes-image-yugi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.yugi-commune{
+    width: 100%;
+    height: 500px;
+
+}
+
+.yugi-rare{
+    width: 100%;
+    height: 500px;
+}
+
+.yugi-legendaire{
+    width: 100%;
+    height: 500px;
+}
+
+.descriptif-carte-yugi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.des_yugi_commune{
+    width: 20%;
+    height: 30px;
+}
+
+.des_yugi_rare{
+    width: 20%;
+    height: 30px;
+}
+
+.des_yugi_leg{
+    width: 20%;
+    height: 30px;
+}
+
+
+
+
+.cartes-image-poke{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poke-commune{
+    width: 100%;
+    height: 500px;
+
+}
+
+.poke-rare{
+    width: 100%;
+    height: 500px;
+}
+
+.poke-legendaire{
+    width: 100%;
+    height: 500px;
+}
+
+.descriptif-carte-poke{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.des_poke_commune{
+    width: 20%;
+    height: 30px;
+}
+
+.des_poke_rare{
+    width: 20%;
+    height: 30px;
+}
+
+.des_poke_leg{
+    width: 20%;
+    height: 30px;
+}
+
+.cartes-image-magic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.magic-commune{
+    width: 100%;
+    height: 500px;
+
+}
+
+.magic-rare{
+    width: 100%;
+    height: 500px;
+}
+
+.magic-legendaire{
+    width: 100%;
+    height: 500px;
+}
+
+.descriptif-carte-magic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.des_magic_commune{
+    width: 20%;
+    height: 30px;
+}
+
+.des_magic_rare{
+    width: 20%;
+    height: 30px;
+}
+
+.des_magic_leg{
+    width: 20%;
+    height: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(106, 73, 51);
+    height: 100px;
+}
+
+.contacts{
+    width: 20%;
+    height: 50px;
+}
+
+
+.mail{
+    width: 60%;
+    height: 50px;
+}
+
+.num{
+    width: 60%;
+    height: 50px;
+}
+
+
+.jeu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dos-carte-yugi{
+    width: 100%;
+    height: 500px;
+
+}
+
+.dos-carte-pokemon{
+    width: 100%;
+    height: 500px;
+}
+
+.dos-carte-magic{
+    width: 100%;
+    height: 500px;
+}
+
+
+
+.nom-jeu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nom-yugi{
+    width: 20%;
+    height:65px;
+}
+
+.nom-poke{
+    width: 20%;
+    height: 65px;
+}
+
+.nom-magic{
+    width: 20%;
+    height: 65px;
+}
+
+.carte-commune{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dos-carte-commune-yugi{
+    width: 100%;
+    height: 500px;
+
+}
+
+.dos-carte-commune-pokemon{
+    width: 100%;
+    height: 500px;
+}
+
+.dos-carte-commune-magic{
+    width: 100%;
+    height: 500px;
+}
+
+.prix-commune{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.prix-commune-yugi{
+    width: 20%;
+    height: 30px;
+}
+
+.prix-commune-poke{
+    width: 20%;
+    height: 30px;
+}
+
+.prix-commune-magic{
+    width: 20%;
+    height: 30px;
+}
+
+
+.carte-rare{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dos-carte-rare-yugi{
+    width: 100%;
+    height: 500px;
+
+}
+
+.dos-carte-rare-pokemon{
+    width: 100%;
+    height: 500px;
+}
+
+.dos-carte-rare-magic{
+    width: 100%;
+    height: 500px;
+}
+
+.prix-rare{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.prix-rare-yugi{
+    width: 20%;
+    height: 30px;
+}
+
+.prix-rare-poke{
+    width: 20%;
+    height: 30px;
+}
+
+.prix-rare-magic{
+    width: 20%;
+    height: 30px;
+}
+
+.carte-leg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dos-carte-leg-yugi{
+    width: 100%;
+    height: 500px;
+
+}
+
+.dos-carte-leg-pokemon{
+    width: 100%;
+    height: 500px;
+}
+
+.dos-carte-leg-magic{
+    width: 100%;
+    height: 500px;
+}
+
+.prix-leg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.prix-leg-yugi{
+    width: 20%;
+    height: 30px;
+}
+
+.prix-leg-poke{
+    width: 20%;
+    height: 30px;
+}
+
+.prix-leg-magic{
+    width: 20%;
+    height: 30px;
+}
+
+.formulaire{
+    width: 80%;
+    margin: 80px auto;
+    
+
+}
+
+*{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+
+
+form > div {
+    margin: 30px 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px; 
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+} 
+
+.succes{
+    border: 1px solid rgb(81,150,2);
+    background-color: rgba(113,212,0,0.4);
+}
+
+nav {
+    display: none;
+  }
+  nav.active {
+    display: block;
+  }
+  
+  .menu-icon {
+    transition: transform 250ms;
+    display: inline-block;
+    border-radius: 15px;
+    background-color: rgb(69, 49, 8);
+    border: none;
+    color: aliceblue;
+    text-align: center;
+    font-size: 28px;
+    width: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  
+  }
+
+  input.error, select.error {
+    border: 2px solid red;
+  }
+  
+  input.success, select.success {
+    border: 2px solid green;
+  }
+  
+  .message-error ul {
+    color: red;
+  }
+  
+  .message-success {
+    color: green;
+    font-weight: bold;
+    display: none;
+  }
+  
+  
+  .menu-icon:hover{
+    background-color: rgb(69,49,8);
+  }
+
+
+
+.tabs {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+  }
+  
+  .tab {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tab-active {
+    border-bottom: 2px solid orange;
+    background-color: #444;
+  }
+  
+
+  .tab-content {
+    display: none;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+
+@media screen and(max-width: 768px) {
+    .bouton-boutique {
+    width: 45%;
+    }
+    .bouton-acceuil {
+        width: 45%;
+        }
+    .nom-site {
+        width: 45%;
+        }
+    }
+
+
+@media screen and(max-width: 425px) {
+    .header {
+        width: 100%;
+        }
+    .bouton-boutique {
+        width: 25%;
+        }
+    .bouton-acceuil {
+        width: 25%;
+        }
+    .nom-site {
+        width: 25%;
+        }   
+    .yugi {
+        width: 100%;
+        }
+    .pokemon {
+        width: 100%;
+        }
+    .magic {
+        width: 100%;
+        }
+
+    .footer {
+        width: 100%;
+        }
+    .bouton-boutique {
+        width: 25%;
+        }
+    .bouton-acceuil {
+        width: 25%;
+        }
+    }
+    
+    @media screen and(max-width: 375px) {
+        .header {
+            width: 100%;
+            }
+        .bouton-boutique {
+            width: 25%;
+            }
+        .bouton-acceuil {
+            width: 25%;
+            }
+        .nom-site {
+            width: 25%;
+            }   
+        .yugi {
+            width: 100%;
+            }
+        .pokemon {
+            width: 100%;
+            }
+        .magic {
+            width: 100%;
+            }
+    
+        .footer {
+            width: 100%;
+            }
+        .bouton-boutique {
+            width: 25%;
+            }
+        .bouton-acceuil {
+            width: 25%;
+            }
+        }
+        
+        @media screen and(max-width: 325px) {
+            .header {
+                width: 120%;
+                }
+            .bouton-boutique {
+                width: 35%;
+                }
+            .bouton-acceuil {
+                width: 35%;
+                }
+            .nom-site {
+                width: 35%;
+                }   
+            .yugi {
+                width: 120%;
+                }
+            .pokemon {
+                width: 120%;
+                }
+            .magic {
+                width: 120%;
+                }
+        
+            .footer {
+                width: 120%;
+                }
+            .bouton-boutique {
+                width: 35%;
+                }
+            .bouton-acceuil {
+                width: 35%;
+                }
+            }
+        .lightmode {
+        background-color: rgb(244, 187, 143);
+        color: white;
+              }

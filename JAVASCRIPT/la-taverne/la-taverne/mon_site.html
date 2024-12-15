@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon premier site</title>
+    <link
+    href="https://fonts.google.com/specimen/Roboto?query=rob" rel="stylesheet">
+    <link
+    href="https://fonts.google.com/specimen/MedievalSharp" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img class="logo" src="photo_logo.png" alt="photo du logo">
+        </div>
+        <div class="nom-site">
+            <h1>LA TAVERNE</h1>
+        </div>
+        <ul class="tabs">
+            <li class="tab tab-accueil tab-active">
+                <a href="mon_site.html">Accueil</a>
+            </li>
+            <li class="tab tab-boutique">
+                <a href="boutique.html">Boutique</a>
+            </li>
+            <li class="tab tab-formulaire">
+                <a href="formulaire.html">Formulaire</a>
+            </li>
+        </ul>
+        <div class="bouton_lightmode">
+            <button onclick="lightmode()">
+                <img src="soleil.png" alt="Light Mode" id="lightmode-icon">
+            </button>
+        </div>
+    </header>
+    
+  
+    
+    <section class="yugi">
+        <div class="cartes-image-yugi">
+            <div>
+                <img class="yugi-commune" src="vers-aiguillon.jpg"alt="carte yugi commune">   
+            </div>
+            <div>
+                <img class="yugi-rare" src="dragon-blanc.jpg"alt="carte yugi rare">
+            </div>
+            <div>
+                <img class="yugi-legendaire" src="minerva.jpg"alt="carte yugi legendaire">
+            </div>
+        </div>
+        <div class="descriptif-carte-yugi">
+            <div class="des_yugi_commune">
+                <h1>Carte valeur: commune / date de parution: 1996</h1>
+            </div>
+            <div class="des_yugi_rare">
+                <h1>Carte valeur: rare / date de parution: 1996</h1>
+            </div>
+            <div class="des_yugi_leg">
+                <h1>Carte valeur: légendaire / date de parution: 1996</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="pokemon">
+        <div class="cartes-image-poke">
+            <div>
+                <img class="poke-commune" src="carte-commune-poke.png"alt="carte poke commune">   
+            </div>
+            <div>
+                <img class="poke-rare" src="image-poke-rare.jpg"alt="carte poke rare">
+            </div>
+            <div>
+                <img class="poke-legendaire" src="carte_leg_poke.jpg"alt="carte poke legendaire">
+            </div>
+        </div>
+        <div class="descriptif-carte-poke">
+            <div class="des_poke_commune">
+                <h1>Carte valeur: commune / date de parution: 2023</h1>
+            </div>
+            <div class="des_poke_rare">
+                <h1>Carte valeur: rare / date de parution: 2020</h1>
+            </div>
+            <div class="des_poke_leg">
+                <h1>Carte valeur: légendaire / date de parution: 1995</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="magic">
+        <div class="cartes-image-magic">
+            <div>
+                <img class="magic-commune" src="carte-commune-magic.jpg"alt="carte magic commune">   
+            </div>
+            <div>
+                <img class="magic-rare" src="carte-rare-magic.jpg"alt="carte magic rare">
+            </div>
+            <div>
+                <img class="magic-legendaire" src="carte-leg-magic.jpg"alt="carte magic legendaire">
+            </div>
+        </div>
+        <div class="descriptif-carte-magic">
+            <div class="des_magic_commune">
+                <h1>Carte valeur: commune / date de parution: 2017</h1>
+            </div>
+            <div class="des_magic_rare">
+                <h1>Carte valeur: rare / date de parution: 2022</h1>
+            </div>
+            <div class="des_magic_leg">
+                <h1>Carte valeur: légendaire / date de parution: 2012</h1>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="contacts">
+            <h1>CONTACTS:</h1>
+        </div>
+        <div class="mail">
+            <h1>mail: yapasdemail@chepa.com</h1>
+        </div>
+        <div class="num">
+            <h1>num: 01 89 00 00 00 00</h1>
+        </div>
+     </footer>
+     <script src="script.js"></script>
+</body>
+
+</html>
